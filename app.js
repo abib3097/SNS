@@ -21,9 +21,9 @@ googleMapsClient.geocode({
 var mysql = require('mysql');
 
 var con = mysql.createConnection({
-  host: "localhost",
-  user: "yourusername",
-  password: "yourpassword"
+  host: "ginger.umd.edu",
+  user: "dbclass114",
+  password: "OlQ7p9rP"
 });
 
 con.connect(function(err) {
