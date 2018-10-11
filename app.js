@@ -6,7 +6,7 @@ const port = 3000;
   res.setHeader('Content-Type', 'text/plain');
   res.end('This is Scotts SNS Home page\n');
 });
-const googleMapsClient = require('@google/maps').createClient({
+const googleMapsAPI = require('@google/maps').createClient({
   key: 'AIzaSyC-gKicseFd6TgJcT1IE3HixJqRxVaUsgA'
 });
 
