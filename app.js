@@ -10,6 +10,14 @@ const googleMapsClient = require('@google/maps').createClient({
   key: 'AIzaSyC-gKicseFd6TgJcT1IE3HixJqRxVaUsgA'
 });
 
+googleMapsClient.geocode({
+  address: '1600 Amphitheatre Parkway, Mountain View, CA'
+}, function(err, response) {
+  if (!err) {
+    console.log(response.json.results);
+  }
+});
+
  server.listen(port, hostname, () => {
   console.log(`Server running at http://${hostname}:${port}/`);
 });
