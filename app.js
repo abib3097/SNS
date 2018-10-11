@@ -18,6 +18,19 @@ googleMapsClient.geocode({
   }
 });
 
+var mysql = require('mysql');
+
+var con = mysql.createConnection({
+  host: "localhost",
+  user: "yourusername",
+  password: "yourpassword"
+});
+
+con.connect(function(err) {
+  if (err) throw err;
+  console.log("Connected!");
+});
+
  server.listen(port, hostname, () => {
   console.log(`Server running at http://${hostname}:${port}/`);
 });
