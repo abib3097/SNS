@@ -1,0 +1,268 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/abibcortes/Documents/CMSC424/SNS/SNS_mobile/app/src/main/AndroidManifest.xml:2:1-51:12
+INJECTED from /Users/abibcortes/Documents/CMSC424/SNS/SNS_mobile/app/src/main/AndroidManifest.xml:2:1-51:12
+INJECTED from /Users/abibcortes/Documents/CMSC424/SNS/SNS_mobile/app/src/main/AndroidManifest.xml:2:1-51:12
+INJECTED from /Users/abibcortes/Documents/CMSC424/SNS/SNS_mobile/app/src/main/AndroidManifest.xml:2:1-51:12
+MERGED from [com.android.support:design:28.0.0] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/c7151e746295d5a804ad724fbf7272e1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/51140ebc4597651c7bcbc30dc23e6653/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.0.0.aar/195e8f705036592c48d1d177380d127b/AndroidManifest.xml:17:1-32:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/842583781081abc82874ce88352c17f0/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/8e1d591f2b374208c134bba5b0ab9eda/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/d9ee5ab2d37761dad628245082fc5b9b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/d2aa3e8bee84f91d9c649caf0a9e8d51/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/fe555a4bc782e5ee3b4462eb0ab5025a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/cffe405b3d1e6885dab9ae9410845fb6/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/d3bbff5ac46c5dac89e464496cbf21a2/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/ce430b2cae900e45a23b07998db6d4cd/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:26.1.0] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/49e74cac1713b7581ae11eb7cd8e9710/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/d35de3a88f94dfc226d87981ff3d6e1b/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/57a1774bf74b99beddb69d11602d35bb/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/ecddf06b75eaa3c168d99c61da557598/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/d0f1f196b959a24e087a08967c4bc05d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/764b460752d48b5f9f83885330088452/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/eab1bdcf25c8c4e549f20fb63bc8265d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/697f2999d1a274f9a3599b6022695260/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/5c224d56e4ead7fdd22a6ad8fd463052/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/526e376e05ccdb5bb8d55b49d81e1770/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/fbdd7484516d5bfb9481b7a57daa4877/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/b9e7a10d7ca8662c0479eb3971dce843/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/d5179023fbabf90c974a2b5b8a9ae014/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/b4a076c80db9296661f091f46e1ac4d3/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/bb5e07689b6d3287a2099c4a2b890bce/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/25bd8fbab620dbf2993dea53ff1910f4/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/ed60a0eab93c7bff6ddb811947400341/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/1cdc727357d5328baba93d29afe65392/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/06e61292e995fd8182b2712d12958706/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/324306f67609bd68df3d524c23dbb926/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/cc3f2c73833da1331f487b286681fa6f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/8640c5b89e211ac8206ce03ae0151165/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/08d564bae2cf3ac854dbd262ed7621f6/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/976076213b27e4de53189820fb5b4f73/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/2cde3665dedff81b33cbd45922c0ed66/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/eab111caf2aaba1d6adb691a71fd48dd/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/abibcortes/Documents/CMSC424/SNS/SNS_mobile/app/src/main/AndroidManifest.xml:2:1-51:12
+INJECTED from /Users/abibcortes/Documents/CMSC424/SNS/SNS_mobile/app/src/main/AndroidManifest.xml:2:1-51:12
+INJECTED from /Users/abibcortes/Documents/CMSC424/SNS/SNS_mobile/app/src/main/AndroidManifest.xml:2:1-51:12
+	package
+		ADDED from /Users/abibcortes/Documents/CMSC424/SNS/SNS_mobile/app/src/main/AndroidManifest.xml:3:5-41
+		INJECTED from /Users/abibcortes/Documents/CMSC424/SNS/SNS_mobile/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/abibcortes/Documents/CMSC424/SNS/SNS_mobile/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/abibcortes/Documents/CMSC424/SNS/SNS_mobile/app/src/main/AndroidManifest.xml
+		ADDED from /Users/abibcortes/Documents/CMSC424/SNS/SNS_mobile/app/src/main/AndroidManifest.xml:2:1-51:12
+		INJECTED from /Users/abibcortes/Documents/CMSC424/SNS/SNS_mobile/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/abibcortes/Documents/CMSC424/SNS/SNS_mobile/app/src/main/AndroidManifest.xml
+		ADDED from /Users/abibcortes/Documents/CMSC424/SNS/SNS_mobile/app/src/main/AndroidManifest.xml:2:1-51:12
+		INJECTED from /Users/abibcortes/Documents/CMSC424/SNS/SNS_mobile/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/abibcortes/Documents/CMSC424/SNS/SNS_mobile/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/abibcortes/Documents/CMSC424/SNS/SNS_mobile/app/src/main/AndroidManifest.xml:11:5-81
+	android:name
+		ADDED from /Users/abibcortes/Documents/CMSC424/SNS/SNS_mobile/app/src/main/AndroidManifest.xml:11:22-78
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from /Users/abibcortes/Documents/CMSC424/SNS/SNS_mobile/app/src/main/AndroidManifest.xml:14:5-71
+	android:name
+		ADDED from /Users/abibcortes/Documents/CMSC424/SNS/SNS_mobile/app/src/main/AndroidManifest.xml:14:22-68
+uses-permission#android.permission.READ_PROFILE
+ADDED from /Users/abibcortes/Documents/CMSC424/SNS/SNS_mobile/app/src/main/AndroidManifest.xml:15:5-71
+	android:name
+		ADDED from /Users/abibcortes/Documents/CMSC424/SNS/SNS_mobile/app/src/main/AndroidManifest.xml:15:22-68
+uses-permission#android.permission.READ_CONTACTS
+ADDED from /Users/abibcortes/Documents/CMSC424/SNS/SNS_mobile/app/src/main/AndroidManifest.xml:16:5-72
+	android:name
+		ADDED from /Users/abibcortes/Documents/CMSC424/SNS/SNS_mobile/app/src/main/AndroidManifest.xml:16:22-69
+application
+ADDED from /Users/abibcortes/Documents/CMSC424/SNS/SNS_mobile/app/src/main/AndroidManifest.xml:18:5-49:19
+MERGED from [com.android.support:design:28.0.0] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/c7151e746295d5a804ad724fbf7272e1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/c7151e746295d5a804ad724fbf7272e1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.0.0.aar/195e8f705036592c48d1d177380d127b/AndroidManifest.xml:30:5-20
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.0.0.aar/195e8f705036592c48d1d177380d127b/AndroidManifest.xml:30:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/842583781081abc82874ce88352c17f0/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/842583781081abc82874ce88352c17f0/AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/cffe405b3d1e6885dab9ae9410845fb6/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/cffe405b3d1e6885dab9ae9410845fb6/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/d3bbff5ac46c5dac89e464496cbf21a2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/d3bbff5ac46c5dac89e464496cbf21a2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/ce430b2cae900e45a23b07998db6d4cd/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/ce430b2cae900e45a23b07998db6d4cd/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:26.1.0] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/49e74cac1713b7581ae11eb7cd8e9710/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/49e74cac1713b7581ae11eb7cd8e9710/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/d35de3a88f94dfc226d87981ff3d6e1b/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/d35de3a88f94dfc226d87981ff3d6e1b/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:28.0.0] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/b4a076c80db9296661f091f46e1ac4d3/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/b4a076c80db9296661f091f46e1ac4d3/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/bb5e07689b6d3287a2099c4a2b890bce/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/bb5e07689b6d3287a2099c4a2b890bce/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/b4a076c80db9296661f091f46e1ac4d3/AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from /Users/abibcortes/Documents/CMSC424/SNS/SNS_mobile/app/src/main/AndroidManifest.xml:23:9-35
+	android:label
+		ADDED from /Users/abibcortes/Documents/CMSC424/SNS/SNS_mobile/app/src/main/AndroidManifest.xml:21:9-41
+	android:roundIcon
+		ADDED from /Users/abibcortes/Documents/CMSC424/SNS/SNS_mobile/app/src/main/AndroidManifest.xml:22:9-54
+	android:icon
+		ADDED from /Users/abibcortes/Documents/CMSC424/SNS/SNS_mobile/app/src/main/AndroidManifest.xml:20:9-43
+	android:allowBackup
+		ADDED from /Users/abibcortes/Documents/CMSC424/SNS/SNS_mobile/app/src/main/AndroidManifest.xml:19:9-35
+	android:theme
+		ADDED from /Users/abibcortes/Documents/CMSC424/SNS/SNS_mobile/app/src/main/AndroidManifest.xml:24:9-40
+meta-data#com.google.android.geo.API_KEY
+ADDED from /Users/abibcortes/Documents/CMSC424/SNS/SNS_mobile/app/src/main/AndroidManifest.xml:34:9-36:55
+	android:value
+		ADDED from /Users/abibcortes/Documents/CMSC424/SNS/SNS_mobile/app/src/main/AndroidManifest.xml:36:13-52
+	android:name
+		ADDED from /Users/abibcortes/Documents/CMSC424/SNS/SNS_mobile/app/src/main/AndroidManifest.xml:35:13-58
+activity#com.example.abibcortes.sns.MapsActivity
+ADDED from /Users/abibcortes/Documents/CMSC424/SNS/SNS_mobile/app/src/main/AndroidManifest.xml:38:9-40:59
+	android:label
+		ADDED from /Users/abibcortes/Documents/CMSC424/SNS/SNS_mobile/app/src/main/AndroidManifest.xml:40:13-56
+	android:name
+		ADDED from /Users/abibcortes/Documents/CMSC424/SNS/SNS_mobile/app/src/main/AndroidManifest.xml:39:13-41
+activity#com.example.abibcortes.sns.RegisterActivity
+ADDED from /Users/abibcortes/Documents/CMSC424/SNS/SNS_mobile/app/src/main/AndroidManifest.xml:41:9-54
+	android:name
+		ADDED from /Users/abibcortes/Documents/CMSC424/SNS/SNS_mobile/app/src/main/AndroidManifest.xml:41:19-51
+activity#com.example.abibcortes.sns.LoginActivity
+ADDED from /Users/abibcortes/Documents/CMSC424/SNS/SNS_mobile/app/src/main/AndroidManifest.xml:42:9-48:20
+	android:name
+		ADDED from /Users/abibcortes/Documents/CMSC424/SNS/SNS_mobile/app/src/main/AndroidManifest.xml:42:19-48
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/abibcortes/Documents/CMSC424/SNS/SNS_mobile/app/src/main/AndroidManifest.xml:43:13-47:29
+action#android.intent.action.MAIN
+ADDED from /Users/abibcortes/Documents/CMSC424/SNS/SNS_mobile/app/src/main/AndroidManifest.xml:44:17-69
+	android:name
+		ADDED from /Users/abibcortes/Documents/CMSC424/SNS/SNS_mobile/app/src/main/AndroidManifest.xml:44:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/abibcortes/Documents/CMSC424/SNS/SNS_mobile/app/src/main/AndroidManifest.xml:46:17-77
+	android:name
+		ADDED from /Users/abibcortes/Documents/CMSC424/SNS/SNS_mobile/app/src/main/AndroidManifest.xml:46:27-74
+uses-sdk
+INJECTED from /Users/abibcortes/Documents/CMSC424/SNS/SNS_mobile/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/abibcortes/Documents/CMSC424/SNS/SNS_mobile/app/src/main/AndroidManifest.xml
+INJECTED from /Users/abibcortes/Documents/CMSC424/SNS/SNS_mobile/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:design:28.0.0] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/c7151e746295d5a804ad724fbf7272e1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/c7151e746295d5a804ad724fbf7272e1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/51140ebc4597651c7bcbc30dc23e6653/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/51140ebc4597651c7bcbc30dc23e6653/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.0.0.aar/195e8f705036592c48d1d177380d127b/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.0.0.aar/195e8f705036592c48d1d177380d127b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/842583781081abc82874ce88352c17f0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/842583781081abc82874ce88352c17f0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/8e1d591f2b374208c134bba5b0ab9eda/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/8e1d591f2b374208c134bba5b0ab9eda/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/d9ee5ab2d37761dad628245082fc5b9b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/d9ee5ab2d37761dad628245082fc5b9b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/d2aa3e8bee84f91d9c649caf0a9e8d51/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/d2aa3e8bee84f91d9c649caf0a9e8d51/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/fe555a4bc782e5ee3b4462eb0ab5025a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/fe555a4bc782e5ee3b4462eb0ab5025a/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/cffe405b3d1e6885dab9ae9410845fb6/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/cffe405b3d1e6885dab9ae9410845fb6/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/d3bbff5ac46c5dac89e464496cbf21a2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/d3bbff5ac46c5dac89e464496cbf21a2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/ce430b2cae900e45a23b07998db6d4cd/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/ce430b2cae900e45a23b07998db6d4cd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.1.0] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/49e74cac1713b7581ae11eb7cd8e9710/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/49e74cac1713b7581ae11eb7cd8e9710/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/d35de3a88f94dfc226d87981ff3d6e1b/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/d35de3a88f94dfc226d87981ff3d6e1b/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/57a1774bf74b99beddb69d11602d35bb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/57a1774bf74b99beddb69d11602d35bb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/ecddf06b75eaa3c168d99c61da557598/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/ecddf06b75eaa3c168d99c61da557598/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/d0f1f196b959a24e087a08967c4bc05d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/d0f1f196b959a24e087a08967c4bc05d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/764b460752d48b5f9f83885330088452/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/764b460752d48b5f9f83885330088452/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/eab1bdcf25c8c4e549f20fb63bc8265d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/eab1bdcf25c8c4e549f20fb63bc8265d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/697f2999d1a274f9a3599b6022695260/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/697f2999d1a274f9a3599b6022695260/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/5c224d56e4ead7fdd22a6ad8fd463052/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/5c224d56e4ead7fdd22a6ad8fd463052/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/526e376e05ccdb5bb8d55b49d81e1770/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/526e376e05ccdb5bb8d55b49d81e1770/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/fbdd7484516d5bfb9481b7a57daa4877/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/fbdd7484516d5bfb9481b7a57daa4877/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/b9e7a10d7ca8662c0479eb3971dce843/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/b9e7a10d7ca8662c0479eb3971dce843/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/d5179023fbabf90c974a2b5b8a9ae014/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/d5179023fbabf90c974a2b5b8a9ae014/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/b4a076c80db9296661f091f46e1ac4d3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/b4a076c80db9296661f091f46e1ac4d3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/bb5e07689b6d3287a2099c4a2b890bce/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/bb5e07689b6d3287a2099c4a2b890bce/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/25bd8fbab620dbf2993dea53ff1910f4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/25bd8fbab620dbf2993dea53ff1910f4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/ed60a0eab93c7bff6ddb811947400341/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/ed60a0eab93c7bff6ddb811947400341/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/1cdc727357d5328baba93d29afe65392/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/1cdc727357d5328baba93d29afe65392/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/06e61292e995fd8182b2712d12958706/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/06e61292e995fd8182b2712d12958706/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/324306f67609bd68df3d524c23dbb926/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/324306f67609bd68df3d524c23dbb926/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/cc3f2c73833da1331f487b286681fa6f/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/cc3f2c73833da1331f487b286681fa6f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/8640c5b89e211ac8206ce03ae0151165/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/8640c5b89e211ac8206ce03ae0151165/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/08d564bae2cf3ac854dbd262ed7621f6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/08d564bae2cf3ac854dbd262ed7621f6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/976076213b27e4de53189820fb5b4f73/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/976076213b27e4de53189820fb5b4f73/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/2cde3665dedff81b33cbd45922c0ed66/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/2cde3665dedff81b33cbd45922c0ed66/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/eab111caf2aaba1d6adb691a71fd48dd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/eab111caf2aaba1d6adb691a71fd48dd/AndroidManifest.xml:20:5-44
+INJECTED from /Users/abibcortes/Documents/CMSC424/SNS/SNS_mobile/app/src/main/AndroidManifest.xml
+INJECTED from /Users/abibcortes/Documents/CMSC424/SNS/SNS_mobile/app/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:support-v4:26.1.0] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/49e74cac1713b7581ae11eb7cd8e9710/AndroidManifest.xml:23:9-51
+	android:targetSdkVersion
+		INJECTED from /Users/abibcortes/Documents/CMSC424/SNS/SNS_mobile/app/src/main/AndroidManifest.xml
+		ADDED from /Users/abibcortes/Documents/CMSC424/SNS/SNS_mobile/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/abibcortes/Documents/CMSC424/SNS/SNS_mobile/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/abibcortes/Documents/CMSC424/SNS/SNS_mobile/app/src/main/AndroidManifest.xml
+		ADDED from /Users/abibcortes/Documents/CMSC424/SNS/SNS_mobile/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/abibcortes/Documents/CMSC424/SNS/SNS_mobile/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.gms:play-services-maps:16.0.0] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.0.0.aar/195e8f705036592c48d1d177380d127b/AndroidManifest.xml:23:5-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:16.0.0] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.0.0.aar/195e8f705036592c48d1d177380d127b/AndroidManifest.xml:23:22-76
+uses-permission#android.permission.INTERNET
+ADDED from [com.google.android.gms:play-services-maps:16.0.0] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.0.0.aar/195e8f705036592c48d1d177380d127b/AndroidManifest.xml:24:5-67
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:16.0.0] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.0.0.aar/195e8f705036592c48d1d177380d127b/AndroidManifest.xml:24:22-64
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:16.0.0] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.0.0.aar/195e8f705036592c48d1d177380d127b/AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:16.0.0] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.0.0.aar/195e8f705036592c48d1d177380d127b/AndroidManifest.xml:27:9-41
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:16.0.0] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.0.0.aar/195e8f705036592c48d1d177380d127b/AndroidManifest.xml:28:9-32
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/cffe405b3d1e6885dab9ae9410845fb6/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/cffe405b3d1e6885dab9ae9410845fb6/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/cffe405b3d1e6885dab9ae9410845fb6/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/cffe405b3d1e6885dab9ae9410845fb6/AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:16.0.1] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/ce430b2cae900e45a23b07998db6d4cd/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/ce430b2cae900e45a23b07998db6d4cd/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/ce430b2cae900e45a23b07998db6d4cd/AndroidManifest.xml:24:13-58
+meta-data#android.support.VERSION
+ADDED from [com.android.support:support-v4:26.1.0] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/49e74cac1713b7581ae11eb7cd8e9710/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/d35de3a88f94dfc226d87981ff3d6e1b/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/d35de3a88f94dfc226d87981ff3d6e1b/AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:support-v4:26.1.0] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/49e74cac1713b7581ae11eb7cd8e9710/AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:support-v4:26.1.0] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/49e74cac1713b7581ae11eb7cd8e9710/AndroidManifest.xml:27:13-51
