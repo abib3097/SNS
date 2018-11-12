@@ -1360,6 +1360,7 @@ layout abc_tooltip
 layout activity_login
 layout activity_maps
 layout activity_register
+layout activity_user_area
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
 layout design_layout_snackbar

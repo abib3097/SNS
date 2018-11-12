@@ -6,7 +6,7 @@
     density="xxhdpi"
     format="10"
     plugin-version="3.2.1"
-    timestamp="1540520635910"
+    timestamp="1540841242672"
     token="-3812769445725147552"
     verifier="COLD_SWAP_REQUESTED" >
 
@@ -23,14 +23,13 @@
         name="verifier"
         duration="0" />
 
-    <artifact
-        location="/Users/abibcortes/Documents/CMSC424/SNS/SNS_mobile/app/build/intermediates/resources/instant-run/debug/resources-debug.apk"
-        type="SPLIT" />
-
     <build
         build-mode="FULL"
-        timestamp="1540520544063"
+        timestamp="1540840930707"
         verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="/Users/abibcortes/Documents/CMSC424/SNS/SNS_mobile/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
+            type="SPLIT_MAIN" />
         <artifact
             location="/Users/abibcortes/Documents/CMSC424/SNS/SNS_mobile/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
             type="SPLIT" />
@@ -67,17 +66,10 @@
         <artifact
             location="/Users/abibcortes/Documents/CMSC424/SNS/SNS_mobile/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
             type="SPLIT" />
-        <artifact
-            location="/Users/abibcortes/Documents/CMSC424/SNS/SNS_mobile/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
-            type="SPLIT_MAIN" />
     </build>
     <build
         build-mode="COLD"
-        timestamp="1540520635910"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="/Users/abibcortes/Documents/CMSC424/SNS/SNS_mobile/app/build/intermediates/resources/instant-run/debug/resources-debug.apk"
-            type="SPLIT" />
-    </build>
+        timestamp="1540841242672"
+        verifier="COLD_SWAP_REQUESTED" />
 
 </instant-run>

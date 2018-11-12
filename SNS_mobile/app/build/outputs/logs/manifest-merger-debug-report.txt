@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/abibcortes/Documents/CMSC424/SNS/SNS_mobile/app/src/main/AndroidManifest.xml:2:1-51:12
-INJECTED from /Users/abibcortes/Documents/CMSC424/SNS/SNS_mobile/app/src/main/AndroidManifest.xml:2:1-51:12
-INJECTED from /Users/abibcortes/Documents/CMSC424/SNS/SNS_mobile/app/src/main/AndroidManifest.xml:2:1-51:12
-INJECTED from /Users/abibcortes/Documents/CMSC424/SNS/SNS_mobile/app/src/main/AndroidManifest.xml:2:1-51:12
+ADDED from /Users/abibcortes/Documents/CMSC424/SNS/SNS_mobile/app/src/main/AndroidManifest.xml:2:1-52:12
+INJECTED from /Users/abibcortes/Documents/CMSC424/SNS/SNS_mobile/app/src/main/AndroidManifest.xml:2:1-52:12
+INJECTED from /Users/abibcortes/Documents/CMSC424/SNS/SNS_mobile/app/src/main/AndroidManifest.xml:2:1-52:12
+INJECTED from /Users/abibcortes/Documents/CMSC424/SNS/SNS_mobile/app/src/main/AndroidManifest.xml:2:1-52:12
 MERGED from [com.android.support:design:28.0.0] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/c7151e746295d5a804ad724fbf7272e1/AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/51140ebc4597651c7bcbc30dc23e6653/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.gms:play-services-maps:16.0.0] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.0.0.aar/195e8f705036592c48d1d177380d127b/AndroidManifest.xml:17:1-32:12
@@ -41,20 +41,20 @@ MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/abibcortes
 MERGED from [com.android.support:print:28.0.0] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/976076213b27e4de53189820fb5b4f73/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/2cde3665dedff81b33cbd45922c0ed66/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:interpolator:28.0.0] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/eab111caf2aaba1d6adb691a71fd48dd/AndroidManifest.xml:17:1-22:12
-INJECTED from /Users/abibcortes/Documents/CMSC424/SNS/SNS_mobile/app/src/main/AndroidManifest.xml:2:1-51:12
-INJECTED from /Users/abibcortes/Documents/CMSC424/SNS/SNS_mobile/app/src/main/AndroidManifest.xml:2:1-51:12
-INJECTED from /Users/abibcortes/Documents/CMSC424/SNS/SNS_mobile/app/src/main/AndroidManifest.xml:2:1-51:12
+INJECTED from /Users/abibcortes/Documents/CMSC424/SNS/SNS_mobile/app/src/main/AndroidManifest.xml:2:1-52:12
+INJECTED from /Users/abibcortes/Documents/CMSC424/SNS/SNS_mobile/app/src/main/AndroidManifest.xml:2:1-52:12
+INJECTED from /Users/abibcortes/Documents/CMSC424/SNS/SNS_mobile/app/src/main/AndroidManifest.xml:2:1-52:12
 	package
 		ADDED from /Users/abibcortes/Documents/CMSC424/SNS/SNS_mobile/app/src/main/AndroidManifest.xml:3:5-41
 		INJECTED from /Users/abibcortes/Documents/CMSC424/SNS/SNS_mobile/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/abibcortes/Documents/CMSC424/SNS/SNS_mobile/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/abibcortes/Documents/CMSC424/SNS/SNS_mobile/app/src/main/AndroidManifest.xml
-		ADDED from /Users/abibcortes/Documents/CMSC424/SNS/SNS_mobile/app/src/main/AndroidManifest.xml:2:1-51:12
+		ADDED from /Users/abibcortes/Documents/CMSC424/SNS/SNS_mobile/app/src/main/AndroidManifest.xml:2:1-52:12
 		INJECTED from /Users/abibcortes/Documents/CMSC424/SNS/SNS_mobile/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/abibcortes/Documents/CMSC424/SNS/SNS_mobile/app/src/main/AndroidManifest.xml
-		ADDED from /Users/abibcortes/Documents/CMSC424/SNS/SNS_mobile/app/src/main/AndroidManifest.xml:2:1-51:12
+		ADDED from /Users/abibcortes/Documents/CMSC424/SNS/SNS_mobile/app/src/main/AndroidManifest.xml:2:1-52:12
 		INJECTED from /Users/abibcortes/Documents/CMSC424/SNS/SNS_mobile/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/abibcortes/Documents/CMSC424/SNS/SNS_mobile/app/src/main/AndroidManifest.xml:2:11-69
@@ -75,7 +75,7 @@ ADDED from /Users/abibcortes/Documents/CMSC424/SNS/SNS_mobile/app/src/main/Andro
 	android:name
 		ADDED from /Users/abibcortes/Documents/CMSC424/SNS/SNS_mobile/app/src/main/AndroidManifest.xml:16:22-69
 application
-ADDED from /Users/abibcortes/Documents/CMSC424/SNS/SNS_mobile/app/src/main/AndroidManifest.xml:18:5-49:19
+ADDED from /Users/abibcortes/Documents/CMSC424/SNS/SNS_mobile/app/src/main/AndroidManifest.xml:18:5-50:19
 MERGED from [com.android.support:design:28.0.0] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/c7151e746295d5a804ad724fbf7272e1/AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:design:28.0.0] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/c7151e746295d5a804ad724fbf7272e1/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-maps:16.0.0] /Users/abibcortes/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.0.0.aar/195e8f705036592c48d1d177380d127b/AndroidManifest.xml:30:5-20
@@ -140,6 +140,10 @@ category#android.intent.category.LAUNCHER
 ADDED from /Users/abibcortes/Documents/CMSC424/SNS/SNS_mobile/app/src/main/AndroidManifest.xml:46:17-77
 	android:name
 		ADDED from /Users/abibcortes/Documents/CMSC424/SNS/SNS_mobile/app/src/main/AndroidManifest.xml:46:27-74
+activity#com.example.abibcortes.sns.UserAreaActivity
+ADDED from /Users/abibcortes/Documents/CMSC424/SNS/SNS_mobile/app/src/main/AndroidManifest.xml:49:9-63
+	android:name
+		ADDED from /Users/abibcortes/Documents/CMSC424/SNS/SNS_mobile/app/src/main/AndroidManifest.xml:49:19-51
 uses-sdk
 INJECTED from /Users/abibcortes/Documents/CMSC424/SNS/SNS_mobile/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/abibcortes/Documents/CMSC424/SNS/SNS_mobile/app/src/main/AndroidManifest.xml
