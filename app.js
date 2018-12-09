@@ -1,32 +1,68 @@
-const http = require('http');
- const hostname = '127.0.0.1';
+const express = require('express');
+const fileUpload = require('express-fileupload');
+const bodyParser = require('body-parser');
+const mysql = require('mysql');
+const path = require('path');
+const app = express();
+var multer = require('multer');
+let gemail;
+const {getHomePage} = require('./routes/index');
+//const {getCategoryPage} = require('./routes/category');
+const {signUp, signUpPage} = require('./routes/sign-up');
+const {write, writePage, getCategoryPage} = require('./routes/write');
+const {logIn, logInPage} = require('./routes/login');
+//const {addPlayerPage, addPlayer, deletePlayer, editPlayer, editPlayerPage} = require('./routes/player');
 const port = 3000;
-var fs=require('fs');
-var server=null;
-fs.readFile('index.html', (err,data)=>{
-if(err){
-throw err;
-}
- server = http.createServer((req, res) => {
-res.statusCode = 200;
-  res.writeHeader(200,{'Content-Type' : 'text/html'});
-console.log(data);
-res.write(data);
-  res.end();
-}).listen(port, hostname, () => {
-  console.log(`Server running at http://${hostname}:${port}/`);  
+// create connection to database
+// the mysql.createConnection function takes in a configuration object which contains host, user, password and the database name.
+const db = mysql.createConnection ({
+    host: 'localhost',
+    user: 'root',
+    password: 'q1w2e3r4!',
+    database: 'socka'
 });
+
+// connect to database
+db.connect((err) => {
+    if (err) {
+        throw err;
+    }
+    console.log('Connected to database!');
+});
+global.db = db;
+
+// configure middleware
+app.set('port', process.env.port || port); // set express to use this port
+app.set('views', __dirname + '/views'); // set express to look in this folder to render our view
+app.set('view engine', 'ejs'); // configure template engine
+app.use(bodyParser.urlencoded({ extended: false }));
+app.use(bodyParser.json()); // parse form data client
+app.use(express.static(path.join(__dirname, 'public'))); // configure express to use public folder
+//app.use(fileUpload()); // configure fileupload
+// routes for the app
+
+app.get('/write/:name', writePage);
+app.get('/', getHomePage);
+app.get('/write', writePage);
+//app.get('/write', categoryPage);
+app.get('/sign-up', signUpPage);
+app.get('/login', logInPage);
+app.post('/write/:name', write);
+app.post('/login', logIn);
+
+app.post('/sign-up', signUp);
+
+//console.log('Input:: name='+getHomePage.body.name+' age='+ req.body.email +' city='+ req.body.password + '');
+
 /*
-const googleMapsClient = require('@google/maps').createClient({
-  key: 'AIzaSyAUlL-EsXAao2b1B5wuPHBBfmOSQX2qcoc'
-});
-googleMapsClient.geocode({
-  address: '1600 Amphitheatre Parkway, Mountain View, CA'
-}, function(err, response) {
-  if (!err) {
-    console.log(response.json.results);
-  }
-if(err){
-console.log('blah')
-}*/
+
+app.get('/edit/:id', editPlayerPage);
+app.get('/delete/:id', deletePlayer);
+
+app.post('/edit/:id', editPlayer);
+*/
+
+// set the app to listen on the port
+app.listen(port, () => {
+    console.log(`Server running on port: ${port}`);
 });
