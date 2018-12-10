@@ -1,5 +1,4 @@
 const fs = require('fs');     
-    var express = require('express')
 
 	let category;
 module.exports = {
@@ -11,29 +10,34 @@ module.exports = {
         console.log(category);
 var dateFormat = require('dateformat');
 var login=require('./login')
-console.log(login.email);
+ 
 		let email=login.email;
         let message = '';
 		let mes=req.body.mes;
-		
-		
 		let duration=req.body.duration;
 		let lat=req.body.lat;
 		let lon=req.body.lon;
 		let now=dateFormat(new Date(), "yyyy-mm-dd h:MM:ss");
-		/*let now=new Date().toISOString().
-  replace(/T/, ' ').      // replace T with a space
-  replace(/\..+/, '') ;*/
 		let yes=1;
+		let n='null';
+		  let uploadedFile;
+        let image_name;
+        let fileExtension;
+		 if (req.files.img) {
+         uploadedFile = req.files.img;
+         image_name = uploadedFile.name;
+         fileExtension = uploadedFile.mimetype.split('/')[1];
+        }
 		
-		console.log(email);
+
  
 
    
 
-            
-							let query = "INSERT INTO `messages` (pemail, category, stime, duration, stat, lat, lon, message) VALUES ('" +
-                            email + "', '" + category + "', '" + now + "', '" + duration + "', '" + yes + "', '" + lat + "', '" + lon + "', '" + mes + "')";
+            if(!req.files.img){
+							let query = "INSERT INTO `messages` (pemail, category, stime, duration, stat, lat, lon, message, image) VALUES ('" +
+                            email + "', '" + category + "', '" + now + "', '" + duration + "', '" + yes + "','"+  
+							 lat + "', '" + lon + "', '" + mes + "', '" + n + "')";
 							
                         db.query(query, (err, result) => {
                             if (err) {
@@ -44,7 +48,27 @@ console.log(login.email);
 							
 							
                         });
-						
+			}
+			else{
+				 uploadedFile.mv(`public/assets/img/${image_name}`, (err ) => {
+                        if (err) {
+                            return res.status(500).send(err);
+                        }
+				let query = "INSERT INTO `messages` (pemail, category, stime, duration, stat, lat, lon, message, image) VALUES ('" +
+                            email + "', '" + category + "', '" + now + "', '" + duration + "', '" + yes + "','"+
+							  lat + "', '" + lon + "', '" + mes + "', '" + image_name  + "')";
+							
+                        db.query(query, (err, result) => {
+                            if (err) {
+                                return res.status(500).send(err);
+                            }
+
+                            return res.redirect('/');
+							
+							
+                        });
+			});
+			}
                     
                 /* else {
                     message = "Invalid File format. Only 'gif', 'jpeg' and 'png' images are allowed.";
@@ -57,7 +81,7 @@ console.log(login.email);
 						
         },
 		getCategoryPage: (req, res) => {
-        let query = "SELECT * FROM `category` "; // query database to get all the players
+        let query = "SELECT * FROM `category` order by name asc"; // query database to get all the players
 
         // execute query
         db.query(query, (err, result) => {
@@ -67,7 +91,7 @@ console.log(login.email);
 			
             }
 			console.log('1');
-            res.render('categoty.ejs', {
+            res.render('category.ejs', {
                 title: "Welcome to Socka | View Players"
                 ,category: result
 				
@@ -84,7 +108,7 @@ console.log(login.email);
             ,message: ''
         });
     },
-	categoryPage: (req, res) => {
+	categoryPage: (req, res) => {console.log('3');
         res.render('category.ejs', {
             title: "Welcome to SNS | Sign up"
             ,message: ''

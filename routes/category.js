@@ -1,5 +1,5 @@
 module.exports = {
-    getCategoryPage: (req, res) => {
+    getCategoryPage: (req, res) => {console.log('123');
         let query = "SELECT * FROM `category` "; // query database to get all the players
 
         // execute query

@@ -1,16 +1,17 @@
 const express = require('express');
+const app = express();
 const fileUpload = require('express-fileupload');
 const bodyParser = require('body-parser');
 const mysql = require('mysql');
 const path = require('path');
-const app = express();
+
 var multer = require('multer');
-let gemail;
 const {getHomePage} = require('./routes/index');
 //const {getCategoryPage} = require('./routes/category');
 const {signUp, signUpPage} = require('./routes/sign-up');
-const {write, writePage, getCategoryPage} = require('./routes/write');
+const {write, writePage, getCategoryPage, categoryPage} = require('./routes/write');
 const {logIn, logInPage} = require('./routes/login');
+const {addCategory, addCategoryPage} = require('./routes/addCategory');
 //const {addPlayerPage, addPlayer, deletePlayer, editPlayer, editPlayerPage} = require('./routes/player');
 const port = 3000;
 // create connection to database
@@ -38,20 +39,26 @@ app.set('view engine', 'ejs'); // configure template engine
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json()); // parse form data client
 app.use(express.static(path.join(__dirname, 'public'))); // configure express to use public folder
-//app.use(fileUpload()); // configure fileupload
+app.use(fileUpload()); // configure fileupload
 // routes for the app
 
 app.get('/write/:name', writePage);
+
+app.get('/addCategory', addCategoryPage);
+app.get('/category', getCategoryPage);
 app.get('/', getHomePage);
 app.get('/write', writePage);
-//app.get('/write', categoryPage);
+app.get('/write', getCategoryPage);
 app.get('/sign-up', signUpPage);
 app.get('/login', logInPage);
+//app.get('/addCategory', function(req,res) {
+//	res.redirect('addCategory.ejs');
+//});
 app.post('/write/:name', write);
 app.post('/login', logIn);
-
+app.post('/category', addCategory);
 app.post('/sign-up', signUp);
-
+//app.get('*',getHomePage);
 //console.log('Input:: name='+getHomePage.body.name+' age='+ req.body.email +' city='+ req.body.password + '');
 
 /*
