@@ -8,13 +8,14 @@
         android:minSdkVersion="15"
         android:targetSdkVersion="28" />
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <!--
          The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
          Google Maps Android API v2, but you must specify either coarse or fine
          location permissions for the 'MyLocation' functionality. 
     -->
-    <!-- <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /> -->
-    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
     <!-- To auto-complete the email text field in the login form with the user's emails -->
     <uses-permission android:name="android.permission.GET_ACCOUNTS" />
@@ -23,7 +24,6 @@
 
     <!-- Include required permissions for Google Maps API to run. -->
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-    <uses-permission android:name="android.permission.INTERNET" />
 
     <uses-feature
         android:glEsVersion="0x00020000"
@@ -38,7 +38,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:testOnly="true"
-        android:theme="@style/AppTheme" >
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true" >
 
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
@@ -55,14 +56,18 @@
         <activity
             android:name="com.example.abibcortes.sns.MapsActivity"
             android:label="@string/title_activity_maps" />
-        <activity android:name="com.example.abibcortes.sns.RegisterActivity" />
-        <activity android:name="com.example.abibcortes.sns.LoginActivity" >
+        <activity android:name="com.example.abibcortes.sns.Register.RegisterActivity" />
+        <activity android:name="com.example.abibcortes.sns.Login.LoginActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="com.example.abibcortes.sns.UserAreaActivity" />
+        <activity
+            android:name="com.example.abibcortes.sns.BottomNavBar.BottomNavBar"
+            android:label="@string/title_activity_bottom_nav_bar" />
         <activity
             android:name="com.google.android.gms.common.api.GoogleApiActivity"
             android:exported="false"

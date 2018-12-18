@@ -20,7 +20,7 @@ const db = mysql.createConnection ({
     host: 'localhost',
     user: 'root',
     password: 'q1w2e3r4!',
-    database: 'socka'
+    database: 'SNS'
 });
 
 // connect to database

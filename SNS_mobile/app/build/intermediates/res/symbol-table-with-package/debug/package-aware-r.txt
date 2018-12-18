@@ -867,6 +867,7 @@ dimen design_tab_text_size_2line
 dimen design_textinput_caption_translate_y
 dimen disabled_alpha_material_dark
 dimen disabled_alpha_material_light
+dimen fab_margin
 dimen fastscroll_default_thickness
 dimen fastscroll_margin
 dimen fastscroll_minimum_range
@@ -1064,11 +1065,14 @@ drawable design_password_eye
 drawable design_snackbar_background
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
+drawable ic_dashboard_black_24dp
+drawable ic_home_black_24dp
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable ic_notifications_black_24dp
 drawable mtrl_snackbar_background
 drawable mtrl_tabs_default_indicator
 drawable navigation_empty_icon
@@ -1089,6 +1093,7 @@ drawable tooltip_frame_light
 id ALT
 id CTRL
 id FUNCTION
+id Lon
 id META
 id SHIFT
 id SYM
@@ -1160,8 +1165,11 @@ id end_padder
 id enterAlways
 id enterAlwaysCollapsed
 id etAddress
+id etConfirmPass
 id etEmail
+id etLat
 id etLoginPassword
+id etLon
 id etName
 id etPassword
 id etUsername
@@ -1174,6 +1182,7 @@ id fill_vertical
 id filled
 id fixed
 id forever
+id fragment_container
 id ghost_view
 id gone
 id group_divider
@@ -1207,7 +1216,11 @@ id mini
 id mtrl_child_content_container
 id mtrl_internal_children_alpha_tag
 id multiply
+id navigation
+id navigation_dashboard
 id navigation_header_container
+id navigation_home
+id navigation_notifications
 id never
 id none
 id normal
@@ -1225,6 +1238,7 @@ id pin
 id progress_circular
 id progress_horizontal
 id radio
+id recyclerView
 id right
 id right_icon
 id right_side
@@ -1305,6 +1319,7 @@ id up
 id useLogo
 id view_offset_helper
 id visible
+id welcomeText
 id wide
 id withText
 id wrap
@@ -1357,6 +1372,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_bottom_nav_bar
 layout activity_login
 layout activity_maps
 layout activity_register
@@ -1375,6 +1391,9 @@ layout design_navigation_item_subheader
 layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_password_icon
+layout fragment_dashboard
+layout fragment_home
+layout fragment_notifications
 layout mtrl_layout_snackbar
 layout mtrl_layout_snackbar_include
 layout notification_action
@@ -1396,6 +1415,7 @@ layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
+menu navigation
 mipmap ic_launcher
 mipmap ic_launcher_round
 string abc_action_bar_home_description
@@ -1481,8 +1501,13 @@ string prompt_email
 string prompt_password
 string search_menu_title
 string status_bar_notification_info_overflow
+string title_activity_bottom_nav_bar
+string title_activity_bottom_navigation_main
 string title_activity_login
 string title_activity_maps
+string title_dashboard
+string title_home
+string title_notifications
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style Animation_AppCompat_Dialog
@@ -1490,6 +1515,9 @@ style Animation_AppCompat_DropDownUp
 style Animation_AppCompat_Tooltip
 style Animation_Design_BottomSheetDialog
 style AppTheme
+style AppTheme_AppBarOverlay
+style AppTheme_NoActionBar
+style AppTheme_PopupOverlay
 style Base_AlertDialog_AppCompat
 style Base_AlertDialog_AppCompat_Light
 style Base_Animation_AppCompat_Dialog
